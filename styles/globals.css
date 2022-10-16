@@ -9,6 +9,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
+  color: #fff;
 }
 
 a {
@@ -18,4 +20,12 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.card{
+  @apply mb-5 block rounded-lg border-gray-200 shadow-md
+}
+
+.primary-button{
+  @apply rounded py-2 bg-amber-300 px-4 shadow outline-none hover:bg-amber-400 active:bg-amber-500
 }

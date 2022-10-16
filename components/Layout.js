@@ -12,7 +12,7 @@ export default function Layout({ children, title }) {
       </Head>
       <div className="flex min-h-screen flex-col justify-between">
         <header className="">
-          <nav className="flex h-12 placeholder:justify-between shadow-md items-center px-4">
+          <nav className="flex h-12 placeholder:justify-between shadow-md items-center px-4 border-b border-gray-800 ">
             <Link href="/">
               <a className="text-lg font-bold">
                 hacktoberfest<span>UG</span>
