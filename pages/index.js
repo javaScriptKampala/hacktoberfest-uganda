@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Layout title="Home Page">
       {/* hacktoberfest logo image  */}
-      <div className="centered-horizontally pt-16">
+      <div className="centered-horizontally pt-14">
         <Image src={hacktoberfestLogo} />
       </div>
 
@@ -23,18 +23,18 @@ export default function Home() {
       </div>
 
       {/* call to action buttons */}
-      <div className="flex justify-center space-x-8 pt-16">
+      <div className="flex justify-center space-x-8 pt-9">
         <button className="primary-button uppercase bg-white text-black border-white text-md">
-          registration is now open
+          start contributing now 
         </button>
         <button className="primary-button uppercase border-white border text-md">
-          see colaborators
+          see contributors
         </button>
       </div>
 
       {/* partners and sponsors  */}
       <div className="centered-horizontally pt-8">
-        <h4 className="text-gray-400 uppercase ">brought to you by:</h4>
+        <h4 className="text-gray-400 uppercase pb-3">brought to you by:</h4>
         <div className="space-x-8 flex flex-row">
           <div>
             <Image src={jsKampalaLogo} width={100} height={100} />
