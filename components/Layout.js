@@ -14,30 +14,32 @@ export default function Layout({ children, title }) {
       </Head>
       <div className="flex min-h-screen flex-col justify-between">
         <header className="">
-          <nav className="flex h-12 justify-around px-4  border-b border-gray-800">
-            <Link href="/">
-              <a className="text-lg font-bold">
-                hacktoberfest<span className="primary-yellow">UG</span>
-              </a>
-            </Link>
+          <nav className="flex  justify-around px-4 py-4 border-b border-gray-800">
+            <div>
+              <Link href="/">
+                <a className="text-2xl font-bold ">
+                  hacktoberfest<span className="primary-yellow">UG</span>
+                </a>
+              </Link>
+            </div>
             <div className="uppercase flex ">
               <Link href="/projects">
-                <a className="p-2">projects</a>
+                <a className="p-2 text-sm">projects</a>
               </Link>
               <Link href="/participants">
-                <a className="p-2">participants</a>
+                <a className="p-2  text-sm">participants</a>
               </Link>
               <Link href="/events">
-                <a className="p-2">events</a>
+                <a className="p-2  text-sm">events</a>
               </Link>
               <Link href="/about">
-                <a className="p-2">about</a>
+                <a className="p-2  text-sm">about</a>
               </Link>
             </div>
             <div>
               {" "}
               <Link href="#">
-                <button className="primary-button w-full uppercase">
+                <button className="primary-button w-full uppercase  text-md">
                   Start Hacking
                 </button>
               </Link>
