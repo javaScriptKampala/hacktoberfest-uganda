@@ -5,6 +5,7 @@ import jsKampalaLogo from "../public/JavaScript-logo.png";
 import oscaKampalaLogo from "../public/osca-kla.jpeg";
 import pythonKampalaLogo from "../public/python-kla.png";
 import outboxLogo from "../public/outbox-logo.jpeg";
+import waapeLogo from "../public/waape-logo.png";
 
 export default function Home() {
   return (
@@ -47,6 +48,9 @@ export default function Home() {
           </div>
           <div>
             <Image src={outboxLogo} width={100} height={100} />
+          </div>
+          <div>
+            <Image src={waapeLogo} width={100} height={100} />
           </div>
         </div>
       </div>
