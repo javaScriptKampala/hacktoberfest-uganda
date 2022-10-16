@@ -27,5 +27,5 @@ a {
 }
 
 .primary-button{
-  @apply rounded py-2 bg-amber-300 px-4 shadow outline-none hover:bg-amber-400 active:bg-amber-500
+  @apply rounded  py-2  px-4 shadow outline-none active:bg-amber-500 border border-amber-300
 }

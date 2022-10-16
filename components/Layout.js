@@ -6,7 +6,9 @@ export default function Layout({ children, title }) {
   return (
     <>
       <Head>
-        <title>{title ? title + " - hacktoberfest uganda" : "hacktoberfest uganda"}</title>
+        <title>
+          {title ? title + " - hacktoberfest uganda" : "hacktoberfest uganda"}
+        </title>
         <meta name="description" content="HacktoberFest Uganda Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,7 +20,7 @@ export default function Layout({ children, title }) {
                 hacktoberfest<span>UG</span>
               </a>
             </Link>
-            <div className="uppercase">
+            <div className="uppercase flex ">
               <Link href="/projects">
                 <a className="p-2">projects</a>
               </Link>
@@ -30,6 +32,9 @@ export default function Layout({ children, title }) {
               </Link>
               <Link href="/about">
                 <a className="p-2">about</a>
+              </Link>
+              <Link href="#">
+                <button className="primary-button w-full">Start Hacking</button>
               </Link>
             </div>
           </nav>
