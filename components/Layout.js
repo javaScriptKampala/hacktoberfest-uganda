@@ -10,7 +10,7 @@ export default function Layout({ children, title }) {
           {title ? title + " - hacktoberfest uganda" : "hacktoberfest uganda"}
         </title>
         <meta name="description" content="HacktoberFest Uganda Website" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/hack.jpg" />
       </Head>
       <div className="flex min-h-screen flex-col justify-between">
         <header className="">
