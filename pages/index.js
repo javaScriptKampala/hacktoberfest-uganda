@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <Layout title="Home Page">
       {/* hacktoberfest logo image  */}
-      <div className="centered-horizontally">
+      <div className="centered-horizontally pt-16">
         <Image src={hacktoberfestLogo} />
       </div>
 
       {/* description  */}
-      <div className="centered-horizontally">
+      <div className="centered-horizontally pt-6">
         <p className="text-gray-400">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -23,7 +23,7 @@ export default function Home() {
       </div>
 
       {/* call to action buttons */}
-      <div className="flex justify-center space-x-8">
+      <div className="flex justify-center space-x-8 pt-16">
         <button className="primary-button uppercase bg-white text-black border-white text-md">
           registration is now open
         </button>
@@ -33,7 +33,7 @@ export default function Home() {
       </div>
 
       {/* partners and sponsors  */}
-      <div className="centered-horizontally">
+      <div className="centered-horizontally pt-8">
         <h4 className="text-gray-400 uppercase ">brought to you by:</h4>
         <div className="space-x-8 flex flex-row">
           <div>

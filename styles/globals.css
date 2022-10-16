@@ -3,12 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: black;
   color: #fff;
 }
@@ -22,17 +23,17 @@ a {
   box-sizing: border-box;
 }
 
-.primary-yellow{
-@apply text-amber-300
+.primary-yellow {
+  @apply text-amber-300;
 }
-.card{
-  @apply mb-5 block rounded-lg border-gray-200 shadow-md
-}
-
-.primary-button{
-  @apply rounded  py-2  px-4 shadow outline-none  
+.card {
+  @apply mb-5 block rounded-lg border-gray-200 shadow-md;
 }
 
-.centered-horizontally{
-  @apply grid place-items-center
+.primary-button {
+  @apply rounded  py-2  px-4 shadow outline-none;
+}
+
+.centered-horizontally {
+  @apply grid place-items-center;
 }
