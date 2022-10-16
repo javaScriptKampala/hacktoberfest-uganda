@@ -22,6 +22,9 @@ a {
   box-sizing: border-box;
 }
 
+.primary-yellow{
+@apply text-amber-300
+}
 .card{
   @apply mb-5 block rounded-lg border-gray-200 shadow-md
 }

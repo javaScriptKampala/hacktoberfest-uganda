@@ -14,10 +14,10 @@ export default function Layout({ children, title }) {
       </Head>
       <div className="flex min-h-screen flex-col justify-between">
         <header className="">
-          <nav className="flex h-12 placeholder:justify-between shadow-md items-center px-4 border-b border-gray-800 ">
+          <nav className="flex h-12 justify-around px-4  border-b border-gray-800">
             <Link href="/">
               <a className="text-lg font-bold">
-                hacktoberfest<span>UG</span>
+                hacktoberfest<span className="primary-yellow">UG</span>
               </a>
             </Link>
             <div className="uppercase flex ">
@@ -33,8 +33,13 @@ export default function Layout({ children, title }) {
               <Link href="/about">
                 <a className="p-2">about</a>
               </Link>
+            </div>
+            <div>
+              {" "}
               <Link href="#">
-                <button className="primary-button w-full">Start Hacking</button>
+                <button className="primary-button w-full uppercase">
+                  Start Hacking
+                </button>
               </Link>
             </div>
           </nav>
