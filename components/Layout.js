@@ -47,7 +47,7 @@ export default function Layout({ children, title }) {
           </nav>
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
-        <footer className="flex justify-center items-center h-10 shadow-inner">
+        <footer className="flex justify-center items-center h-10 shadow-inner text-gray-400">
           Copyright &copy; 2022 hacktoberfest uganda
         </footer>
       </div>
