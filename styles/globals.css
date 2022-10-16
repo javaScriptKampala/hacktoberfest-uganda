@@ -30,5 +30,9 @@ a {
 }
 
 .primary-button{
-  @apply rounded  py-2  px-4 shadow outline-none active:bg-amber-500 border border-amber-300 
+  @apply rounded  py-2  px-4 shadow outline-none  
+}
+
+.centered-horizontally{
+  @apply grid place-items-center
 }

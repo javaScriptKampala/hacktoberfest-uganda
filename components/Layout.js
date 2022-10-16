@@ -18,7 +18,7 @@ export default function Layout({ children, title }) {
             <div>
               <Link href="/">
                 <a className="text-2xl font-bold ">
-                  hacktoberfest<span className="primary-yellow">UG</span>
+                  hacktoberfest<span className="primary-yellow">Uganda</span>
                 </a>
               </Link>
             </div>
@@ -39,7 +39,7 @@ export default function Layout({ children, title }) {
             <div>
               {" "}
               <Link href="#">
-                <button className="primary-button w-full uppercase  text-md">
+                <button className="primary-button w-full uppercase border border-amber-300  text-md">
                   Start Hacking
                 </button>
               </Link>
