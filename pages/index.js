@@ -26,7 +26,7 @@ export default function Home() {
       {/* call to action buttons */}
       <div className="flex justify-center space-x-8 pt-9">
         <button className="primary-button uppercase bg-white text-black border-white text-md">
-          start contributing now 
+          start contributing now
         </button>
         <button className="primary-button uppercase border-white border text-md">
           see contributors
