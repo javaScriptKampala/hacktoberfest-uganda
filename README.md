@@ -13,4 +13,4 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Style Guide
-[UI Design]()
+[UI Design](https://www.figma.com/file/2K0UcFGwNVmydOZuZ1lqxF/HacktoberfestUg?node-id=0%3A1)
