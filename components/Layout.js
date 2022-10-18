@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-import Button from "./Button";
+import Button from "./Button/Button";
 
 export default function Layout({ children, title }) {
   return (
@@ -43,7 +43,7 @@ export default function Layout({ children, title }) {
                 {/* <button className="primary-button w-full uppercase border border-amber-300  text-md">
                   Start Hacking
                 </button> */}
-                <Button color={"black"} t={"START HACKING"} tc={"white"} bc={"amber-300"} ></Button>
+                <Button color={"black"} text={"START HACKING"} textColor={"white"} backgroundColor={"amber-300"} ></Button>
               </Link>
             </div>
           </nav>

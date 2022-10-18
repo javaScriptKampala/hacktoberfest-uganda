@@ -6,7 +6,7 @@ import oscaKampalaLogo from "../public/osca-kla.jpeg";
 import pythonKampalaLogo from "../public/python-kla.png";
 import outboxLogo from "../public/outbox-logo.jpeg";
 import waapeLogo from "../public/waape-logo.png";
-import Button from "../components/Button";
+import Button from "../components/Button/Button";
 
 
 export default function Home() {
@@ -28,8 +28,8 @@ export default function Home() {
       {/* call to action buttons */}
       <div className="flex justify-center space-x-8 pt-9">
         
-       <Button color={"black"} t={"Start Contributing Now"} tc={"white"} bc={"white"} ></Button>
-       <Button color={"black"} t={"See Contributers"} tc={"white"} bc={"white"}  ></Button>
+       <Button color={"black"} text={"Start Contributing Now"} textColor={"white"} backgroundColor={"white"} ></Button>
+       <Button color={"black"} text={"See Contributers"} textColor={"white"} backgroundColor={"white"}  ></Button>
         
       </div>
 
