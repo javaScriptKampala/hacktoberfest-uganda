@@ -80,7 +80,7 @@ export default function Layout({ children, title }) {
                 marginTop: "8px",
               }}
               height="32"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               src="/imgs/powered-by-vercel.svg"
             />
           </a>
