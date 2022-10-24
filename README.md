@@ -14,3 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Style Guide
 [UI Design](https://www.figma.com/file/2K0UcFGwNVmydOZuZ1lqxF/HacktoberfestUg?node-id=0%3A1)
+
+
+[![Powered by Vercel](/public/imgs/powered-by-vercel.svg)](https://vercel.com?utm_source=JavaScriptKampala&utm_campaign=oss)
