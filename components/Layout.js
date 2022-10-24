@@ -49,6 +49,7 @@ export default function Layout({ children, title }) {
               </Link>
               <a
                 target={"_blank"}
+                rel="noopener noreferrer"
                 style={{
                   cursor: "pointer",
                   marginLeft: "20px",
@@ -80,7 +81,6 @@ export default function Layout({ children, title }) {
                 marginTop: "8px",
               }}
               height="32"
-              rel="noopener noreferrer"
               src="/imgs/powered-by-vercel.svg"
             />
           </a>
