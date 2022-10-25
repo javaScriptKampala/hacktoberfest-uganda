@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Button from "./Button/Button";
+import { BsGithub } from "react-icons/bs";
 
 export default function Layout({ children, title }) {
   return (
@@ -36,19 +38,52 @@ export default function Layout({ children, title }) {
                 <a className="p-2  text-sm">about</a>
               </Link>
             </div>
-            <div>
-              {" "}
+            <div className="flex items-center space-x-2">
               <Link href="#">
-                <button className="primary-button w-full uppercase border border-amber-300  text-md">
-                  Start Hacking
-                </button>
+                <Button
+                  color={"black"}
+                  text={"START HACKING"}
+                  textColor={"white"}
+                  backgroundColor={"amber-300"}
+                />
               </Link>
+              <a
+                target={"_blank"}
+                rel="noopener noreferrer"
+                style={{
+                  cursor: "pointer",
+                  marginLeft: "20px",
+                }}
+                href={
+                  "https://github.com/javaScriptKampala/hacktoberfest-uganda"
+                }
+              >
+                <BsGithub size={30} />
+              </a>
             </div>
           </nav>
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
-        <footer className="flex justify-center items-center h-10 shadow-inner text-gray-400">
+        <footer
+          className="flex justify-center items-center h-10 shadow-inner text-gray-400
+        flex-col pb-12
+        "
+        >
           Copyright &copy; 2022 hacktoberfest uganda
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://vercel.com?utm_source=JavaScriptKampala&utm_campaign=oss"
+          >
+            <img
+              alt="Powered by Vercel"
+              style={{
+                marginTop: "8px",
+              }}
+              height="32"
+              src="/imgs/powered-by-vercel.svg"
+            />
+          </a>
         </footer>
       </div>
     </>
